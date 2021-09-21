@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_outer_classname = "NordjyskeDatasetProtos";
+option java_package = "com.trippple.protobuf";
+
+message Passage {
+  string text = 1;
+  repeated Word words = 2;
+}
+
+message Word {
+  int32 appearanceCount = 1;
+  string word = 2;
+}
+
+message Collection {
+  int32 documentCount = 1;
+  repeated Word words = 2;
+}
+
+message Document {
+  int64 passageCount = 1;
+  string filename = 2;
+  string title = 3;
+  repeated Word words = 4;
+  repeated Passage passages = 5;
+}
+
+message File {
+  string filename = 1;
+  repeated Document documents = 2;
+}

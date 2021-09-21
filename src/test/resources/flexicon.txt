@@ -1,0 +1,11 @@
+*
+kanon
+S
+2	kanon
+4	kanons
+8	kanonen
+16	kanonens
+32	kanoner
+64	kanoners
+128	kanonerne
+256	kanonernes

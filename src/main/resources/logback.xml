@@ -1,0 +1,19 @@
+<!DOCTYPE configuration>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+    </root>
+<!--
+        LOG LEVELS KAN FINDES HER:
+        http://www.slf4j.org/api/org/apache/log4j/Level.html
+-->
+    <logger name="com.trippple.processing.Stemmer" level="ERROR"/>
+    <logger name="com.trippple.processing.NordjyskeDatasetProcessing" level="DEBUG" />
+</configuration>
