@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="datasetDirectoryPath">PATH TO DATASET DIRECTORY</entry> /* Noget vi skla bruge fra en anden gruppe, måske noget fra databasen?????? */
+    <entry key="processedDatasetDirectoryPath">src/main/resources/ProcessedDataset</entry>
+    <entry key="claimFilePath">src/main/resources/claims/25.csv</entry>
+    <entry key="benchmarkOutputFilePath">benchmarkResults.csv</entry>
+    <entry key="ddoSynonymsFilePath">ddo-synonyms.csv</entry>
+    <entry key="stopWordsFilePath">stop-words.txt</entry>
+    <entry key="flexikonFilePath">flexikon.txt</entry>
+</properties>
